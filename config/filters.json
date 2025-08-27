@@ -1,0 +1,13 @@
+[
+  {
+    "name": "design_ru_mid",
+    "keywords_any": ["логотип", "брендинг", "фирменный стиль"],
+    "keywords_not": ["3d", "архитектура"],
+    "categories": ["Дизайн"],
+    "lang": ["ru"],
+    "budget_min": 1500,
+    "budget_max": 20000,
+    "min_words": 10,
+    "only_new": true
+  }
+]

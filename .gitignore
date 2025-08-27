@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# Env
+.env
+
+# Playwright
+playwright-report/
+
+# SQLite
+*.sqlite3
+
+# Docker
+*.log

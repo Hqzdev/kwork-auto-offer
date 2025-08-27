@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kwork_auto_offer"
+version = "0.1.0"
+description = "Telegram bot-monitor for Kwork freelance marketplace with auto offer capabilities"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+develop = [
+    "black",
+    "isort",
+    "mypy",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-playwright",
+]
+
+[project.dependencies]
+aiogram = "^3.0.0"
+playwright = "^1.40.0"
+aiosqlite = "^0.19.0"
+apscheduler = "^3.10.4"
+python-dotenv = "^1.0.0"
+cryptography = "^41.0.0"
+async-timeout = "^4.0.2"
+pydantic = "^2.5.0"
+redis = "^5.0.0"
+orjson = "^3.9.0"
+loguru = "^0.7.2"
